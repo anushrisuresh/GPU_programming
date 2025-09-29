@@ -16,7 +16,6 @@ and reproducible build/run scripts.
   - Command-line argument parsing (`-n`, `-b`, `-k`, `-r`)
 - **Makefile** – Build script (compiles to `build/memory`)
 - **run.sh** – Runs program with multiple block sizes and N values
-- **build_log.txt** – Captured build output (`ptxas info` register usage)
 - **run_log.txt** – Captured run output with timing results
 
 ---
