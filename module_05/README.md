@@ -46,6 +46,22 @@ Where:
 - -k = kernel variant (global, constant, shared, all)
 - -r = number of timing repetitions
 
+## 📸 Screenshots
+
+All screenshots are located in the `images/` folder for easy viewing.
+
+### 🖼️ Build Log (Register Usage)
+Shows compilation with `ptxas info` lines confirming register usage:
+![Build Log – Register Count](images/module_05_pt1.png)
+
+---
+
+### 🖼️ Run Output – Variable Block Sizes
+Shows host memory printout, register demo output, and timings for block sizes 64, 128, 256 with N=262144, N=1048576, and N=4194304:
+![Run Log – Block Size Variations](images/module_05_pt2.png)
+
+---
+
 ### Key Observations
 - **Constant memory** consistently shows slight performance improvements compared to global memory.
 - **Shared memory** adds a small overhead from synchronization but enables per-block reduction operations, which would scale better for large reductions.
