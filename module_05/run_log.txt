@@ -1,0 +1,60 @@
+== BLOCK SIZE 64 ==
+Host memory allocated: 8.00 MB for xh + yh (on CPU)
+Host sample xh[0]=0.00, yh[0]=0.00 (before copy)
+Register demo kernel execution:
+Register demo: computed f=22.44 (using registers)
+N=1048576, block=64, grid=16384, variant=all, reps=5
+global   avg 0.016 ms
+constant avg 0.016 ms
+shared   avg 0.018 ms
+Done.
+== BLOCK SIZE 128 ==
+Host memory allocated: 8.00 MB for xh + yh (on CPU)
+Host sample xh[0]=0.00, yh[0]=0.00 (before copy)
+Register demo kernel execution:
+Register demo: computed f=22.44 (using registers)
+N=1048576, block=128, grid=8192, variant=all, reps=5
+global   avg 0.013 ms
+constant avg 0.013 ms
+shared   avg 0.017 ms
+Done.
+== BLOCK SIZE 256 ==
+Host memory allocated: 8.00 MB for xh + yh (on CPU)
+Host sample xh[0]=0.00, yh[0]=0.00 (before copy)
+Register demo kernel execution:
+Register demo: computed f=22.44 (using registers)
+N=1048576, block=256, grid=4096, variant=all, reps=5
+global   avg 0.013 ms
+constant avg 0.012 ms
+shared   avg 0.018 ms
+Done.
+== N 262144, block 256 ==
+Host memory allocated: 2.00 MB for xh + yh (on CPU)
+Host sample xh[0]=0.00, yh[0]=0.00 (before copy)
+Register demo kernel execution:
+Register demo: computed f=22.44 (using registers)
+N=262144, block=256, grid=1024, variant=all, reps=5
+global   avg 0.004 ms
+constant avg 0.003 ms
+shared   avg 0.006 ms
+Done.
+== N 1048576, block 256 ==
+Host memory allocated: 8.00 MB for xh + yh (on CPU)
+Host sample xh[0]=0.00, yh[0]=0.00 (before copy)
+Register demo kernel execution:
+Register demo: computed f=22.44 (using registers)
+N=1048576, block=256, grid=4096, variant=all, reps=5
+global   avg 0.013 ms
+constant avg 0.012 ms
+shared   avg 0.018 ms
+Done.
+== N 4194304, block 256 ==
+Host memory allocated: 32.00 MB for xh + yh (on CPU)
+Host sample xh[0]=0.00, yh[0]=0.00 (before copy)
+Register demo kernel execution:
+Register demo: computed f=22.44 (using registers)
+N=4194304, block=256, grid=16384, variant=all, reps=5
+global   avg 0.052 ms
+constant avg 0.052 ms
+shared   avg 0.059 ms
+Done.

@@ -1,0 +1,2 @@
+mkdir -p build
+nvcc -O3 -std=c++17 -Xptxas -v --use_fast_math -o build/memory src/memory.cu

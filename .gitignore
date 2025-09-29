@@ -1,0 +1,51 @@
+# Build artifacts
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# CUDA specific
+*.cubin
+*.fatbin
+*.ptx
+*.cudafe1.c
+*.cudafe2.c
+*.cudafe1.cpp
+*.cudafe2.cpp
+
+# Log files
+*.log
+*_log.txt
+build_log.txt
+run_log.txt
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.backup
+
+# Core dumps
+core
+core.*
+
+# Profiling output
+*.prof
+*.nvprof
+*.nsight
+
+/module_05/build/
+
